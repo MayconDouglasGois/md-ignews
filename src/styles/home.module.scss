@@ -1,0 +1,36 @@
+.container{
+    padding-top: 5rem;    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content{
+    margin-left: 2rem;
+
+    span{
+        font-size: 1.5rem;
+    }
+
+    h1{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        margin: 1rem 0;
+
+        span{
+            font-size: 4.5rem; 
+            color: var(--cyan-500);
+        }
+    }
+
+
+    button{
+        margin-top: 4rem;
+    }
+    
+}
+.price{
+    display: block;
+
+    color: var(--cyan-500);
+}
